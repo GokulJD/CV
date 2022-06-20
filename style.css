@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    background-color: black;
+  }
+  .Board{
+    margin: auto 480px;
+  }
+  .chess-board{
+    position: absolute;
+    top: 30px;
+    border-spacing: 0;
+  }
+
+  th{
+    padding: 1.5em;
+    color: white;
+  }
+  td{
+    font-size: 35px;
+    text-align: center;
+  }
+  .light{
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: thin;
+    position: relative;
+  }
+  .light:hover{
+    background-color: #47B5FF;
+    transform: translate(5px, -5px);
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+
+  }
+
+
+  .dark{
+    background-color: grey;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: thin;
+    position: relative;
+  }
+  .dark:hover{
+    background-color: #47B5FF;
+    transform: translate(5px, -5px);
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+  }
+
+  .posiblePosition{
+    background: #00FF00;
+  }
+
+  .movePosition{
+    background: #ffae00;
+  }
+
+  .positionPicked {
+    background-color: #47B5FF;
+    transform: translate(5px, -5px);
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+  }
